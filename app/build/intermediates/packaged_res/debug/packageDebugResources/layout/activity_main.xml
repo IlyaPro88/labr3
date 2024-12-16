@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Кнопка для удаления всех записей -->
+    <Button
+        android:id="@+id/deleteButton"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалить все записи"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Кнопка для добавления новой записи -->
+    <Button
+        android:id="@+id/addButton"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить запись"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Кнопка для изменения имени последней записи -->
+
+    <!-- Лэйаут для отображения данных -->
+    <Button
+        android:id="@+id/updateLastButton"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Изменить последнюю запись" />
+
+    <LinearLayout
+        android:id="@+id/dataLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+</LinearLayout>
